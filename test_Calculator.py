@@ -20,3 +20,10 @@ def test_multiply():
     assert 15 == Calculator.multiply(5, 3)
     assert 0 == Calculator.multiply(0, 0)
     assert 10 != Calculator.multiply(6, 5)
+
+
+def test_divide():
+    assert Calculator.divide(6, 2) == 3
+    assert Calculator.divide(9, 3) == 3
+    assert Calculator.divide(15, 3) == 5
+    assert Calculator.divide(8, 2) != 3
