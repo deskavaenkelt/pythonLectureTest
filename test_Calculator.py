@@ -13,3 +13,10 @@ def test_subtraction():
     assert 2 == Calculator.subtraction(5, 3)
     assert 0 == Calculator.subtraction(0, 0)
     assert 10 != Calculator.subtraction(6, 5)
+
+
+def test_multiply():
+    assert 12 == Calculator.multiply(6, 2)
+    assert 15 == Calculator.multiply(5, 3)
+    assert 0 == Calculator.multiply(0, 0)
+    assert 10 != Calculator.multiply(6, 5)
