@@ -1,5 +1,4 @@
 import Calculator
-import pytest
 
 
 def test_addition():
